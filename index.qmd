@@ -1,7 +1,7 @@
 # About
 
 ::: {.callout-important}
-## Website under constructions
+## Website under construction
 
 This website is still in the early stages of construction — you may want to come back in a few weeks!
 :::
