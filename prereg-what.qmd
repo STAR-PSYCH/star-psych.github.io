@@ -1,0 +1,25 @@
+# Basics of preregistration
+
+## What is preregistration?
+
+Preregistration involves declaring a research plan (for example, aims/hypotheses, methods, and analyses) in a public registry before research outcomes are known (usually before data collection begins). 
+
+## Why preregister?
+
+Preregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims (Hardwicke & Wagenmakers, 2023). 
+
+## Deviating from a preregistration
+
+A preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not (DeHaven, 2017). Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on Willroth & Atherton, 2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in Hardwicke & Wagenmakers, 2023).
+
+## What does Psychological Science require?
+
+As part of the Research Transparency Statement, Psychological Science requires that all research articles state upon submission whether each reported study was preregistered or not, and which core aspects of the study (research questions/hypotheses, methods, analyses) were preregistered. Authors should state when and where preregistrations were archived and whether any relevant data existed and/or had been observed at these times. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all relevant preregistrations. Authors should state if any deviations from the preregistration occurred (they may refer to them as ‘major’ or ‘minor’) and refer readers to a preregistration deviation disclosure table in the first Supplemental File for details. All major deviations should also be reported clearly in the main text, wherever relevant.
+
+Authors can use any trusted online registry to preregister their research. For beginners, we recommend following the Open Science Framework’s step-by-step workflow (osf.io/prereg). Note that for manuscripts submitted on or after January 1, 2024, “preregistered” badges will no longer be offered, but preregistration status and quality will be one factor in editors’ decisions, when relevant.
+
+* writing a preregistration
+* using a registry
+* reporting a preregistration
+
+

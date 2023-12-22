@@ -1,9 +1,22 @@
-# Preface {.unnumbered}
+# About
 
-This is a Quarto book.
+::: {.callout-important}
+## Website under constructions
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This website is still in the early stages of construction — you may want to come back in a few weeks!
+:::
 
-```{r}
-1 + 1
-```
+This is the online home of the Statistics, Transparency, and Rigour (STAR) team at Psychological Science.
+
+We have prepared a collection of how-to guides that explain how to adopt various transparent research practices, such as preregistration, and sharing materials, data, and analysis scripts. Each how-to guide contains simple step-by-step instructions.
+
+There are many tools and approaches to achieve these goals; we have focused on the minimal steps necessary to meet Psychological Science policy and focused on some of the most commonly used tools.
+
+We welcome your feedback, you can [report issues at our Github page](https://github.com/STAR-PSYCH/star-psych.github.io/issues) or [drop us an e-mail](mailto:star.psych.team@gmail.com).
+
+::: {.callout-warning appearance="simple"}
+## Psychological Science policy
+
+This page is intended to supplement the official Psychological Science [submission guidelines](https://www.psychologicalscience.org/publications/psychological_science/psychological-science-submission-guidelines-24#rts) — in the event of a conflict between the official guidelines and the guidance provided on this website, the official guidelines take precedence.
+:::
+

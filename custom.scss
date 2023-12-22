@@ -1,0 +1,14 @@
+/*-- scss:defaults --*/
+
+// use cosmo as the base
+$theme: "cosmo" !default;
+
+// use 
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Roboto, "Segoe UI", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+/*-- scss:rules --*/
+
+// use san-serif
+p {
+  font-family: $font-family-sans-serif;
+}

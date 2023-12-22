@@ -1,0 +1,11 @@
+.menu-text {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar.sidebar-navigation>* {
+  padding-top: 0.5em;
+}

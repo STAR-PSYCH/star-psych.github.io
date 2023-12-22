@@ -1,0 +1,15 @@
+# Basics of sharing data
+
+## What are data?
+
+Data are the evidence that underlies scientific claims: sharing data enables independent verification and reuse, facilitating error correction, evidence synthesis, and novel discovery. 
+
+*Raw data* refers to the original quantitative or qualitative recordings, e.g., handwriting in a paper questionnaire, responses on a computer keyboard, or physiological readings. 
+
+*Primary data* refers to the first digital (and if necessary, anonymized) version of the raw data, otherwise unaltered. This includes data that is later excluded from the analysis. 
+
+Raw and primary data may be equivalent, as when online survey software records responses in a digital format or some minimal processing may be necessary to convert the raw data into primary data (e.g., converting handwritten survey responses to digital format, or stripping participant IP addresses from the raw data file). Processed data has been altered in some way beyond digitization and anonymization (e.g., renaming columns, removing variables).
+
+Upon submission, Psychological Science requires authors to make all primary research data publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Where possible, authors should share data in an open format (e.g., csv) to maximize accessibility. Authors are encouraged to share processed ‘ready-to-analyze’ data in addition to primary data, as it is often easier for other researchers to work with. Data should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented with a data dictionary or codebook file that clearly explains the contents of the data file(s), when the data were collected, and who collected the data. Note that for manuscripts submitted on or after January 1, 2024, “open data” badges will no longer be offered.
+
+## Why share data?

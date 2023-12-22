@@ -1,0 +1,15 @@
+# Basics of sharing materials
+
+## What are materials?
+
+Sharing study materials ensures that research can be thoroughly evaluated and enables independent re-use of research outputs, helping the research community efficiently build upon previous studies. Authors must share all materials necessary for an independent researcher to evaluate and replicate each reported study. This typically includes all stimuli, manipulations, measures, or instruments, as well as details of procedures (e.g., instructions to participants, instructions to experimenters and/or confederates, experimenter and/or confederate scripts, instructions to coders, recruitment materials, consent forms) and custom experimental software. Screen recordings or video protocols can also be helpful ways to communicate study methods.
+
+Upon submission, Psychological Science requires authors to make all original study materials publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors should share files in any original proprietary formats (e.g., Qualtrics or Google Forms) as well as open format equivalents (e.g., plain text, PDF) to maximize accessibility. Materials should be accompanied by an open license (see “Licensing materials, data, and analysis script” below). Materials should be clearly documented to explain what they are and how they can be reused. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all shared materials. Note that for manuscripts submitted on or after January 1, 2024, “open materials” badges will no longer be offered.
+
+## Why share materials?
+
+* open file formats and licensing
+* documentation
+* choosing a repository
+* reporting
+* constraints

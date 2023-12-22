@@ -1,22 +1,50 @@
 project:
   type: book
   output-dir: docs
-
+  
 book:
-  title: "Statistics, Transparency, and Rigour (STAR) team at Psychological Science"
-  author: "Norah Jones"
-  date: "12/21/2023"
+  title: " "
+  favicon: logo_white.png
+  site-url: https://star-psych.github.io
+  page-navigation: false
+  
+  sidebar: 
+    style: docked
+    background: light
+    logo: logo_text.png
+    title: ' '
+    
   chapters:
     - index.qmd
-    - intro.qmd
+    - part: "Preregistration"
+      chapters: 
+          - prereg-what.qmd
+    - part: "Materials"
+      chapters: 
+        - materials-what.qmd
+    - part: "Data"
+      chapters: 
+        - data-what.qmd
+        - data-why.qmd
+    - part: "Analysis scripts"
+      chapters: 
+        - analysis-what.qmd
     - summary.qmd
-    - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    css: custom.css
+
+    mainfont: "system-ui"
+    number-sections: false
+    page-layout: full
+    toc-title: On this page
+    title-block-style: none
+    grid:
+      sidebar-width: 350px
 
 
 

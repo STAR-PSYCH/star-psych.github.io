@@ -2,29 +2,85 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Statistics, Transparency, and Rigour (STAR) team at Psychological Science",
+    "title": "Welcome",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome\nThis is the online home of the Statistics, Transparency, and Rigour (STAR) team at Psychological Science.\nWe have prepared a collection of how-to guides that explain how to adopt various transparent research practices, such as preregistration, and sharing materials, data, and analysis scripts. Each how-to guide contains simple step-by-step instructions.\nThere are many tools and approaches to achieve these goals; we have focused on the minimal steps necessary to meet Psychological Science policy and focused on some of the most commonly used tools.\nWe welcome your feedback, you can report issues at our Github page or drop us an e-mail.\n\n\n\n\n\n\nPsychological Science policy\n\n\n\nThis page is intended to supplement the official Psychological Science submission guidelines — in the event of a conflict between the official guidelines and the guidance provided on this website, the official guidelines take precedence."
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "prereg-what.html",
+    "href": "prereg-what.html",
+    "title": "What and why",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Preregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims (Hardwicke & Wagenmakers, 2023). Preregistration involves declaring a research plan (for example, aims/hypotheses, methods, and analyses) in a public registry before research outcomes are known (usually before data collection begins). A preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not (DeHaven, 2017). Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on Willroth & Atherton, 2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in Hardwicke & Wagenmakers, 2023).\nAs part of the Research Transparency Statement, Psychological Science requires that all research articles state upon submission whether each reported study was preregistered or not, and which core aspects of the study (research questions/hypotheses, methods, analyses) were preregistered. Authors should state when and where preregistrations were archived and whether any relevant data existed and/or had been observed at these times. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all relevant preregistrations. Authors should state if any deviations from the preregistration occurred (they may refer to them as ‘major’ or ‘minor’) and refer readers to a preregistration deviation disclosure table in the first Supplemental File for details. All major deviations should also be reported clearly in the main text, wherever relevant.\nAuthors can use any trusted online registry to preregister their research. For beginners, we recommend following the Open Science Framework’s step-by-step workflow (osf.io/prereg). Note that for manuscripts submitted on or after January 1, 2024, “preregistered” badges will no longer be offered, but preregistration status and quality will be one factor in editors’ decisions, when relevant."
+  },
+  {
+    "objectID": "materials-what.html",
+    "href": "materials-what.html",
+    "title": "What and why",
+    "section": "",
+    "text": "Sharing study materials ensures that research can be thoroughly evaluated and enables independent re-use of research outputs, helping the research community efficiently build upon previous studies. Authors must share all materials necessary for an independent researcher to evaluate and replicate each reported study. This typically includes all stimuli, manipulations, measures, or instruments, as well as details of procedures (e.g., instructions to participants, instructions to experimenters and/or confederates, experimenter and/or confederate scripts, instructions to coders, recruitment materials, consent forms) and custom experimental software. Screen recordings or video protocols can also be helpful ways to communicate study methods.\nUpon submission, Psychological Science requires authors to make all original study materials publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors should share files in any original proprietary formats (e.g., Qualtrics or Google Forms) as well as open format equivalents (e.g., plain text, PDF) to maximize accessibility. Materials should be accompanied by an open license (see “Licensing materials, data, and analysis script” below). Materials should be clearly documented to explain what they are and how they can be reused. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all shared materials. Note that for manuscripts submitted on or after January 1, 2024, “open materials” badges will no longer be offered."
+  },
+  {
+    "objectID": "data-what.html",
+    "href": "data-what.html",
+    "title": "What and why",
+    "section": "",
+    "text": "Data are the evidence that underlies scientific claims: sharing data enables independent verification and reuse, facilitating error correction, evidence synthesis, and novel discovery.\nRaw data refers to the original quantitative or qualitative recordings, e.g., handwriting in a paper questionnaire, responses on a computer keyboard, or physiological readings.\nPrimary data refers to the first digital (and if necessary, anonymized) version of the raw data, otherwise unaltered. This includes data that is later excluded from the analysis.\nRaw and primary data may be equivalent, as when online survey software records responses in a digital format or some minimal processing may be necessary to convert the raw data into primary data (e.g., converting handwritten survey responses to digital format, or stripping participant IP addresses from the raw data file). Processed data has been altered in some way beyond digitization and anonymization (e.g., renaming columns, removing variables).\nUpon submission, Psychological Science requires authors to make all primary research data publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Where possible, authors should share data in an open format (e.g., csv) to maximize accessibility. Authors are encouraged to share processed ‘ready-to-analyze’ data in addition to primary data, as it is often easier for other researchers to work with. Data should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented with a data dictionary or codebook file that clearly explains the contents of the data file(s), when the data were collected, and who collected the data. Note that for manuscripts submitted on or after January 1, 2024, “open data” badges will no longer be offered."
+  },
+  {
+    "objectID": "analysis-what.html",
+    "href": "analysis-what.html",
+    "title": "What and why",
+    "section": "",
+    "text": "An analysis script is ideally computational code (e.g., R or Python), or software syntax (SPSS), but can also be detailed step-by-step instructions for analyses performed in point-and-click software. Analysis scripts provide a record of exactly how the analyses reported in the manuscript were performed. This enables an independent researcher to thoroughly evaluate the analyses and verify that the results are computationally reproducible (i.e., repeating the original analyses with the original data yields the reported results). Analysis scripts completely document all of the steps performed to transform the raw data into the primary/processed data (if any), and then into the numerical values reported in the manuscript (including reorganizing, filtering, transforming, analyzing, and visualizing the data).\nUpon submission, Psychological Science requires authors to make all original analysis scripts publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors must document all analysis steps necessary for an independent researcher to reproduce all numerical values in the manuscript from the raw data. Authors should ideally share analysis scripts in an open format (e.g., R, Python), though proprietary formats are acceptable for commonly used software (e.g., Matlab, SPSS). Analysis scripts should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented to explain what they do and how an independent researcher should re-use them to reproduce all numerical values reported in the manuscript. The Research Transparency statement must contain a publicly accessible persistent identifier (e.g., DOI) to the analysis script(s). We also encourage researchers to document and share the software environment in which the analyses were performed using tools such as Docker, Binder, or Code Ocean."
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "objectID": "prereg-what.html#what-is-preregistration",
+    "href": "prereg-what.html#what-is-preregistration",
+    "title": "Basics of preregistration",
+    "section": "What is preregistration?",
+    "text": "What is preregistration?\nPreregistration involves declaring a research plan (for example, aims/hypotheses, methods, and analyses) in a public registry before research outcomes are known (usually before data collection begins)."
+  },
+  {
+    "objectID": "prereg-what.html#why-preregister",
+    "href": "prereg-what.html#why-preregister",
+    "title": "Basics of preregistration",
+    "section": "Why preregister?",
+    "text": "Why preregister?\nPreregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims (Hardwicke & Wagenmakers, 2023)."
+  },
+  {
+    "objectID": "prereg-what.html#deviating-from-a-preregistration",
+    "href": "prereg-what.html#deviating-from-a-preregistration",
+    "title": "Basics of preregistration",
+    "section": "Deviating from a preregistration",
+    "text": "Deviating from a preregistration\nA preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not (DeHaven, 2017). Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on Willroth & Atherton, 2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in Hardwicke & Wagenmakers, 2023)."
+  },
+  {
+    "objectID": "prereg-what.html#what-does-psychological-science-require",
+    "href": "prereg-what.html#what-does-psychological-science-require",
+    "title": "Basics of preregistration",
+    "section": "What does Psychological Science require?",
+    "text": "What does Psychological Science require?\nAs part of the Research Transparency Statement, Psychological Science requires that all research articles state upon submission whether each reported study was preregistered or not, and which core aspects of the study (research questions/hypotheses, methods, analyses) were preregistered. Authors should state when and where preregistrations were archived and whether any relevant data existed and/or had been observed at these times. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all relevant preregistrations. Authors should state if any deviations from the preregistration occurred (they may refer to them as ‘major’ or ‘minor’) and refer readers to a preregistration deviation disclosure table in the first Supplemental File for details. All major deviations should also be reported clearly in the main text, wherever relevant.\nAuthors can use any trusted online registry to preregister their research. For beginners, we recommend following the Open Science Framework’s step-by-step workflow (osf.io/prereg). Note that for manuscripts submitted on or after January 1, 2024, “preregistered” badges will no longer be offered, but preregistration status and quality will be one factor in editors’ decisions, when relevant.\n\nwriting a preregistration\nusing a registry\nreporting a preregistration"
+  },
+  {
+    "objectID": "materials-what.html#what-are-materials",
+    "href": "materials-what.html#what-are-materials",
+    "title": "Basics of sharing materials",
+    "section": "What are materials?",
+    "text": "What are materials?\nSharing study materials ensures that research can be thoroughly evaluated and enables independent re-use of research outputs, helping the research community efficiently build upon previous studies. Authors must share all materials necessary for an independent researcher to evaluate and replicate each reported study. This typically includes all stimuli, manipulations, measures, or instruments, as well as details of procedures (e.g., instructions to participants, instructions to experimenters and/or confederates, experimenter and/or confederate scripts, instructions to coders, recruitment materials, consent forms) and custom experimental software. Screen recordings or video protocols can also be helpful ways to communicate study methods.\nUpon submission, Psychological Science requires authors to make all original study materials publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors should share files in any original proprietary formats (e.g., Qualtrics or Google Forms) as well as open format equivalents (e.g., plain text, PDF) to maximize accessibility. Materials should be accompanied by an open license (see “Licensing materials, data, and analysis script” below). Materials should be clearly documented to explain what they are and how they can be reused. The Research Transparency Statement must contain a publicly accessible persistent identifier (e.g., DOI) to all shared materials. Note that for manuscripts submitted on or after January 1, 2024, “open materials” badges will no longer be offered."
+  },
+  {
+    "objectID": "materials-what.html#why-share-materials",
+    "href": "materials-what.html#why-share-materials",
+    "title": "Basics of sharing materials",
+    "section": "Why share materials?",
+    "text": "Why share materials?\n\nopen file formats and licensing\ndocumentation\nchoosing a repository\nreporting\nconstraints"
   }
 ]
