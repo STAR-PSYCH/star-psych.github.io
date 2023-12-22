@@ -6,7 +6,7 @@
 This website is still in the early stages of construction — you may want to come back in a few weeks!
 :::
 
-This is the online home of the Statistics, Transparency, and Rigour (STAR) team at Psychological Science.
+This is the online home of the *Statistics, Transparency, and Rigour* (STAR) team at Psychological Science.
 
 We have prepared a collection of how-to guides that explain how to adopt various transparent research practices, such as preregistration, and sharing materials, data, and analysis scripts. Each how-to guide contains simple step-by-step instructions.
 
