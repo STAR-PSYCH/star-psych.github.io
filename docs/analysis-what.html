@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>- What and why</title>
+<title>- Basics of sharing analysis scripts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./analysis-what.html">Analysis scripts</a></li><li class="breadcrumb-item"><a href="./analysis-what.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">What and why</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./analysis-what.html">Analysis scripts</a></li><li class="breadcrumb-item"><a href="./analysis-what.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Basics of sharing analysis scripts</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./prereg-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">What and why</span></a>
+  <a href="./prereg-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Basics of preregistration</span></a>
   </div>
 </li>
       </ul>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./materials-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">What and why</span></a>
+  <a href="./materials-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Basics of sharing materials</span></a>
   </div>
 </li>
       </ul>
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">What and why</span></a>
+  <a href="./data-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Basics of sharing data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analysis-what.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">What and why</span></a>
+  <a href="./analysis-what.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Basics of sharing analysis scripts</span></a>
   </div>
 </li>
       </ul>
@@ -186,21 +186,34 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-are-analysis-scripts" id="toc-what-are-analysis-scripts" class="nav-link active" data-scroll-target="#what-are-analysis-scripts">What are analysis scripts?</a></li>
+  <li><a href="#why-share-analysis-scripts" id="toc-why-share-analysis-scripts" class="nav-link" data-scroll-target="#why-share-analysis-scripts">Why share analysis scripts</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header">
-<h1 class="title display-7"><span class="chapter-title">What and why</span></h1>
+<h1 class="title display-7"><span class="chapter-title">Basics of sharing analysis scripts</span></h1>
 
 </header>
 
+<section id="what-are-analysis-scripts" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-analysis-scripts">What are analysis scripts?</h2>
 <p>An analysis script is ideally computational code (e.g., R or Python), or software syntax (SPSS), but can also be detailed step-by-step instructions for analyses performed in point-and-click software. Analysis scripts provide a record of exactly how the analyses reported in the manuscript were performed. This enables an independent researcher to thoroughly evaluate the analyses and verify that the results are computationally reproducible (i.e., repeating the original analyses with the original data yields the reported results). Analysis scripts completely document all of the steps performed to transform the raw data into the primary/processed data (if any), and then into the numerical values reported in the manuscript (including reorganizing, filtering, transforming, analyzing, and visualizing the data).</p>
 <p>Upon submission, Psychological Science requires authors to make all original analysis scripts publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors must document all analysis steps necessary for an independent researcher to reproduce all numerical values in the manuscript from the raw data. Authors should ideally share analysis scripts in an open format (e.g., R, Python), though proprietary formats are acceptable for commonly used software (e.g., Matlab, SPSS). Analysis scripts should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented to explain what they do and how an independent researcher should re-use them to reproduce all numerical values reported in the manuscript. The Research Transparency statement must contain a publicly accessible persistent identifier (e.g., DOI) to the analysis script(s). We also encourage researchers to document and share the software environment in which the analyses were performed using tools such as Docker, Binder, or Code Ocean.</p>
+</section>
+<section id="why-share-analysis-scripts" class="level2">
+<h2 class="anchored" data-anchor-id="why-share-analysis-scripts">Why share analysis scripts</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
