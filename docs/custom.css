@@ -9,3 +9,8 @@ a {
 .sidebar.sidebar-navigation>* {
   padding-top: 0.5em;
 }
+
+
+.sidebar-logo {
+  max-width: 75%;
+}
