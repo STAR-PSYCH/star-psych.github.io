@@ -18,14 +18,14 @@
     "href": "prereg-what.html#why-preregister",
     "title": "Basics of preregistration",
     "section": "Why preregister?",
-    "text": "Why preregister?\nPreregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims (Hardwicke & Wagenmakers, 2023)."
+    "text": "Why preregister?\nPreregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims1."
   },
   {
     "objectID": "prereg-what.html#deviating-from-a-preregistration",
     "href": "prereg-what.html#deviating-from-a-preregistration",
     "title": "Basics of preregistration",
     "section": "Deviating from a preregistration",
-    "text": "Deviating from a preregistration\nA preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not (DeHaven, 2017). Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on Willroth & Atherton, 2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in Hardwicke & Wagenmakers, 2023)."
+    "text": "Deviating from a preregistration\nA preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not2. Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on3) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in1)."
   },
   {
     "objectID": "prereg-what.html#what-does-psychological-science-require",
@@ -82,5 +82,12 @@
     "title": "Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "prereg-what.html#references",
+    "href": "prereg-what.html#references",
+    "title": "Basics of preregistration",
+    "section": "References",
+    "text": "References\n\n\n1. Hardwicke, T. E., & Wagenmakers, E.-J. (2023). Reducing bias,\nincreasing transparency and calibrating confidence with preregistration.\nNature Human Behaviour, 7(1), 15–26. https://doi.org/10.1038/s41562-022-01497-2\n\n\n2. DeHaven, A. (2017). Preregistration: a plan, not a prison.\nhttps://www.cos.io/blog/preregistration-plan-not-prison\n\n\n3. Willroth, E. C., & Atherton, O. E. (2023). Best Laid Plans: A\nGuide to Reporting Preregistration Deviations. https://doi.org/10.31234/osf.io/dwx69"
   }
 ]
