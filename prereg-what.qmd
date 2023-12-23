@@ -2,15 +2,15 @@
 
 ## What is preregistration?
 
-Preregistration involves declaring a research plan (for example, aims/hypotheses, methods, and analyses) in a public registry before research outcomes are known (usually before data collection begins). 
+Preregistration involves declaring a research plan (for example, aims/hypotheses, methods, and analyses) in a public registry before research outcomes are known (usually before data collection begins).
 
 ## Why preregister?
 
-Preregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims (Hardwicke & Wagenmakers, 2023). 
+Preregistration can reduce bias, increase transparency, and help readers calibrate their confidence in scientific claims @hardwicke2023.
 
 ## Deviating from a preregistration
 
-A preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not (DeHaven, 2017). Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on Willroth & Atherton, 2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in Hardwicke & Wagenmakers, 2023).
+A preregistration is a plan, not a prison: the goal is to make clear what was planned and what was not @dehaven2017. Deviations from preregistrations may be necessary or desirable. When deviations occur (and they almost always do), authors should describe them explicitly using the Psychological Science preregistration deviation disclosure table (link coming; modified based on @willroth2023) in the first Supplemental File. Any major deviations should also be reported in the main text of the manuscript. Authors should consider taking additional measures to reduce the risk of bias incurred by deviations, such as robustness checks (see Box 2 in @hardwicke2023).
 
 ## What does Psychological Science require?
 
@@ -18,8 +18,11 @@ As part of the Research Transparency Statement, Psychological Science requires t
 
 Authors can use any trusted online registry to preregister their research. For beginners, we recommend following the Open Science Framework’s step-by-step workflow (osf.io/prereg). Note that for manuscripts submitted on or after January 1, 2024, “preregistered” badges will no longer be offered, but preregistration status and quality will be one factor in editors’ decisions, when relevant.
 
-* writing a preregistration
-* using a registry
-* reporting a preregistration
+-   writing a preregistration
+-   using a registry
+-   reporting a preregistration
 
+## References
 
+::: {#refs}
+:::
