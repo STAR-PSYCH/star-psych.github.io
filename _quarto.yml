@@ -19,16 +19,19 @@ book:
     - part: "Preregistration"
       chapters: 
           - prereg-what.qmd
+          - prereg-how.qmd
     - part: "Materials"
       chapters: 
         - materials-what.qmd
+        - materials-how.qmd
     - part: "Data"
       chapters: 
         - data-what.qmd
-        - data-why.qmd
+        - data-how.qmd
     - part: "Analysis scripts"
       chapters: 
         - analysis-what.qmd
+        - analysis-how.qmd
     - summary.qmd
 
 bibliography: references.bib

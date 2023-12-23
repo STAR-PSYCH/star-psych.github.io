@@ -1,0 +1,7 @@
+# How to share materials
+
+* open file formats and licensing
+* documentation
+* choosing a repository
+* reporting
+* constraints

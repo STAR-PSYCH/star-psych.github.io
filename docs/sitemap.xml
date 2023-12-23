@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://star-psych.github.io/index.html</loc>
-    <lastmod>2023-12-23T01:08:05.825Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.450Z</lastmod>
   </url>
   <url>
     <loc>https://star-psych.github.io/prereg-what.html</loc>
-    <lastmod>2023-12-23T01:11:21.003Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://star-psych.github.io/prereg-how.html</loc>
+    <lastmod>2023-12-23T02:48:24.452Z</lastmod>
   </url>
   <url>
     <loc>https://star-psych.github.io/materials-what.html</loc>
-    <lastmod>2023-12-23T01:08:05.829Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.453Z</lastmod>
+  </url>
+  <url>
+    <loc>https://star-psych.github.io/materials-how.html</loc>
+    <lastmod>2023-12-23T02:48:24.456Z</lastmod>
   </url>
   <url>
     <loc>https://star-psych.github.io/data-what.html</loc>
-    <lastmod>2023-12-23T01:34:57.645Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.457Z</lastmod>
   </url>
   <url>
-    <loc>https://star-psych.github.io/data-why.html</loc>
-    <lastmod>2023-12-23T01:08:05.833Z</lastmod>
+    <loc>https://star-psych.github.io/data-how.html</loc>
+    <lastmod>2023-12-23T02:48:24.460Z</lastmod>
   </url>
   <url>
     <loc>https://star-psych.github.io/analysis-what.html</loc>
-    <lastmod>2023-12-23T01:08:05.834Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://star-psych.github.io/analysis-how.html</loc>
+    <lastmod>2023-12-23T02:48:24.464Z</lastmod>
   </url>
   <url>
     <loc>https://star-psych.github.io/summary.html</loc>
-    <lastmod>2023-12-23T01:08:05.836Z</lastmod>
+    <lastmod>2023-12-23T02:48:24.465Z</lastmod>
   </url>
 </urlset>

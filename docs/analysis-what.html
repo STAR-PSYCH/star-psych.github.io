@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./analysis-what.html">Analysis scripts</a></li><li class="breadcrumb-item"><a href="./analysis-what.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Basics of sharing analysis scripts</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./analysis-what.html">Analysis scripts</a></li><li class="breadcrumb-item"><a href="./analysis-what.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Basics of sharing analysis scripts</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -121,6 +121,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./prereg-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Basics of preregistration</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prereg-how.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How to preregister</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -135,6 +140,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./materials-what.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Basics of sharing materials</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./materials-how.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How to share materials</span></a>
   </div>
 </li>
       </ul>
@@ -155,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-why.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Why share data?</span></a>
+  <a href="./data-how.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How to share data</span></a>
   </div>
 </li>
       </ul>
@@ -174,11 +184,16 @@ ul.task-list li input[type="checkbox"] {
   <a href="./analysis-what.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Basics of sharing analysis scripts</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./analysis-how.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How to share analysis scripts</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">placeholder</span></a>
   </div>
 </li>
     </ul>
@@ -191,8 +206,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-are-analysis-scripts" id="toc-what-are-analysis-scripts" class="nav-link active" data-scroll-target="#what-are-analysis-scripts">What are analysis scripts?</a></li>
-  <li><a href="#why-share-analysis-scripts" id="toc-why-share-analysis-scripts" class="nav-link" data-scroll-target="#why-share-analysis-scripts">Why share analysis scripts</a></li>
+  <li><a href="#why-share-analysis-scripts" id="toc-why-share-analysis-scripts" class="nav-link active" data-scroll-target="#why-share-analysis-scripts">Why share analysis scripts</a></li>
+  <li><a href="#what-are-analysis-scripts" id="toc-what-are-analysis-scripts" class="nav-link" data-scroll-target="#what-are-analysis-scripts">What are analysis scripts?</a></li>
+  <li><a href="#what-does-psychological-science-require" id="toc-what-does-psychological-science-require" class="nav-link" data-scroll-target="#what-does-psychological-science-require">What does Psychological Science require?</a></li>
   </ul>
 </nav>
     </div>
@@ -204,13 +220,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="what-are-analysis-scripts" class="level2">
-<h2 class="anchored" data-anchor-id="what-are-analysis-scripts">What are analysis scripts?</h2>
-<p>An analysis script is ideally computational code (e.g., R or Python), or software syntax (SPSS), but can also be detailed step-by-step instructions for analyses performed in point-and-click software. Analysis scripts provide a record of exactly how the analyses reported in the manuscript were performed. This enables an independent researcher to thoroughly evaluate the analyses and verify that the results are computationally reproducible (i.e., repeating the original analyses with the original data yields the reported results). Analysis scripts completely document all of the steps performed to transform the raw data into the primary/processed data (if any), and then into the numerical values reported in the manuscript (including reorganizing, filtering, transforming, analyzing, and visualizing the data).</p>
-<p>Upon submission, Psychological Science requires authors to make all original analysis scripts publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors must document all analysis steps necessary for an independent researcher to reproduce all numerical values in the manuscript from the raw data. Authors should ideally share analysis scripts in an open format (e.g., R, Python), though proprietary formats are acceptable for commonly used software (e.g., Matlab, SPSS). Analysis scripts should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented to explain what they do and how an independent researcher should re-use them to reproduce all numerical values reported in the manuscript. The Research Transparency statement must contain a publicly accessible persistent identifier (e.g., DOI) to the analysis script(s). We also encourage researchers to document and share the software environment in which the analyses were performed using tools such as Docker, Binder, or Code Ocean.</p>
-</section>
 <section id="why-share-analysis-scripts" class="level2">
 <h2 class="anchored" data-anchor-id="why-share-analysis-scripts">Why share analysis scripts</h2>
+<p>Analysis scripts provide a record of exactly how the analyses reported in the manuscript were performed. This enables an independent researcher to thoroughly evaluate the analyses and verify that the results are computationally reproducible (i.e., repeating the original analyses with the original data yields the reported results). Analysis scripts completely document all of the steps performed to transform the raw data into the primary/processed data (if any), and then into the numerical values reported in the manuscript (including reorganizing, filtering, transforming, analyzing, and visualizing the data).</p>
+</section>
+<section id="what-are-analysis-scripts" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-analysis-scripts">What are analysis scripts?</h2>
+<p>An analysis script is ideally computational code (e.g., R or Python), or software syntax (SPSS), but can also be detailed step-by-step instructions for analyses performed in point-and-click software.</p>
+</section>
+<section id="what-does-psychological-science-require" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-psychological-science-require">What does Psychological Science require?</h2>
+<p>Upon submission, Psychological Science requires authors to make all original analysis scripts publicly available in a trusted online repository, unless there are reasonable constraints. When unresolvable constraints exist, they must be stated and justified in the Research Transparency Statement. Authors must document all analysis steps necessary for an independent researcher to reproduce all numerical values in the manuscript from the raw data. Authors should ideally share analysis scripts in an open format (e.g., R, Python), though proprietary formats are acceptable for commonly used software (e.g., Matlab, SPSS). Analysis scripts should be accompanied by an open license (see “Licensing materials, data, and analysis script” below) and clearly documented to explain what they do and how an independent researcher should re-use them to reproduce all numerical values reported in the manuscript. The Research Transparency statement must contain a publicly accessible persistent identifier (e.g., DOI) to the analysis script(s). We also encourage researchers to document and share the software environment in which the analyses were performed using tools such as Docker, Binder, or Code Ocean.</p>
 
 
 </section>
