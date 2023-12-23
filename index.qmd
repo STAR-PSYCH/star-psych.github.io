@@ -1,6 +1,6 @@
 # About
 
-::: {.callout-important}
+::: callout-important
 ## Website under construction
 
 This website is still in the early stages of construction — you may want to come back in a few weeks!
@@ -19,4 +19,3 @@ We welcome your feedback, you can [report issues at our Github page](https://git
 
 This page is intended to supplement the official Psychological Science [submission guidelines](https://www.psychologicalscience.org/publications/psychological_science/psychological-science-submission-guidelines-24#rts) — in the event of a conflict between the official guidelines and the guidance provided on this website, the official guidelines take precedence.
 :::
-
